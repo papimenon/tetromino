@@ -80,5 +80,3 @@ in the SF Bay Area.  I tried to keep things as close as possible in terms of tim
 Electronika 60.
 
 So with that, hopefully you enjoy the game, and maybe even get inspired to create something with go-asciisprite.
-
-Papi makes a change. 
