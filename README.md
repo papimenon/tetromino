@@ -81,5 +81,3 @@ Electronika 60.
 
 So with that, hopefully you enjoy the game, and maybe even get inspired to create something with go-asciisprite.
 
-
-Papi makes an irrelevant change. 
