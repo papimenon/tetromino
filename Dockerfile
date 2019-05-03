@@ -6,7 +6,8 @@ COPY *.go ./
 RUN CGO_ENABLED=0 GOOS=linux go build -a -ldflags '-extldflags "-static"' -o tetromino *.go
 
 ENV PATH "$PATH:/project"
-RUN chmod +x ./run_tests.sh
+COPY run_tests.sh /project
+RUN chmod +x /project/run_tests.sh
 
 FROM scratch
 COPY --from=0 /project/tetromino /tetromino
