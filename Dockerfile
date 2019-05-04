@@ -1,5 +1,7 @@
-FROM golang:alpine3.8
+FROM scratch
 RUN chmod +x run_tests.sh
+
+FROM golang:alpine3.8
 WORKDIR /project
 RUN apk add --no-cache git
 RUN go get github.com/gdamore/tcell && go get github.com/pdevine/go-asciisprite
