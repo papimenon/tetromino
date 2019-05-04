@@ -1,6 +1,3 @@
-FROM scratch
-RUN chmod +x run_tests.sh
-
 FROM golang:alpine3.8
 WORKDIR /project
 RUN apk add --no-cache git
